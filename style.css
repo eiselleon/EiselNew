@@ -7,3 +7,9 @@ a {color: #2b2bf6;}
 #content p 	{font-family: Arial;font-size: 14px}       
 #content a 	{color:blue;}
 #footer 	{width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #508ca0; clear:both;}                            
+<style>
+img {
+	max-width: 20%;
+	height: 20%;
+}
+</style>
