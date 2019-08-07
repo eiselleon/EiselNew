@@ -5,5 +5,5 @@ a {color: #2b2bf6;}
 #sidebar 	{width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #93e4ff;}           
 #content 	{width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #92bdcc;}    
 #content p 	{font-family: Arial;font-size: 14px}       
-#content a 	{color:red;}
+#content a 	{color:blue;}
 #footer 	{width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #508ca0; clear:both;}                            
