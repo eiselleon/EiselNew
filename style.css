@@ -2,40 +2,24 @@ body {background: #ffffff; margin: 0; padding: 0;}
 a {color: #2b2bf6;}           
 #container 	{width: auto; margin: 0; padding: 0; background: #baedff;}           
 #header 	{width: 900px; 	height: 150px; 	margin: 0; padding: 0; border: 0; background: #88d1ea;}           
-#sidebar 	{width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #93e4ff;}           
 #content 	{width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #92bdcc;}    
 #content p 	{font-family: Arial;font-size: 14px}       
 #content a 	{color:blue;}
 #footer 	{width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #508ca0; clear:both;}                            
 
-html, body, {
-	position:fixed;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
+html, body {
+	height:100%
 }
 
-<style>
-body {margin:25px;}
-
-div.polaroid {
-	width:80%;
-	background-color: white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 25px;
+body {
+	display: flex;
+	flex-direction: column;
 }
 
-div.container {
-	text-align:center;
-	padding: 10px 20px;
+.content {
+	flex: 1 0 auto;
 }
 
-img {
-	max-width: 20%;
-	height: 20%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.footer {
+	flex-shrink: 0;
 }
-</style>
