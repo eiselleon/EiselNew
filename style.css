@@ -20,6 +20,17 @@ body {
 	flex: 1 0 auto;
 }
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+div.tcenter {
+	text-align: center;
+}
+
 div {
 	height:auto;
 	width:1000px;
