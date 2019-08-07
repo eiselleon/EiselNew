@@ -2,10 +2,10 @@ body {background: #ffffff; margin: 0; padding: 0;}
 a {color: #2b2bf6;}           
 #container 	{width: auto; margin: 0; padding: 0; background: #baedff;}           
 #header 	{width: auto; 	height: auto; 	margin: 0; padding: 5px; border: 0; background: #88d1ea;}           
-#content 	{width: auto; height: auto; 	margin: 0; padding: 5px; border: 0; float: left; background: #92bdcc;}    
+#content 	{width: auto; height: auto; min-height: 1000px; 	margin: 0; padding: 5px; border: 0; float: left; background: #92bdcc;}    
 #content p 	{font-family: Arial;font-size: 14px}       
 #content a 	{color:blue;}
-#footer 	{width: auto; height: auto; min-height: 20px; margin: 5px; padding: 0; border: 0; background: #508ca0;}                            
+#footer 	{width: auto; height: auto; min-height: 50px; margin: 0; padding: 0; border: 0; background: #508ca0;}                            
 
 html, body {
 	height:auto;
@@ -24,7 +24,7 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 30%;
+	width: 30%;
 }
 
 div.tcenter {
@@ -38,6 +38,6 @@ div {
 }
 
 .footer {
-	flex-shrink: 0;
+	flex-shrink: 1;
 }
 
