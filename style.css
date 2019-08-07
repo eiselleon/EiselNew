@@ -3,9 +3,13 @@ a {color: #2b2bf6;}
 #container 	{width: auto; margin: 0; padding: 0; background: #baedff;}           
 #header 	{width: auto; 	height: auto; 	margin: 0; padding: 5px; border: 0; background: #88d1ea;}           
 #content 	{width: auto; height: auto; min-height: 1000px; 	margin: 0; padding: 5px; border: 0; float: left; background: #92bdcc;}    
-#content p 	{font-family: Arial;font-size: 14px}       
+#content p 	{font-family: Arial;font-size: 14px}    
+#content h1 {font-family: Arial;}   
+#content h3 {font-family: Arial;}   
 #content a 	{color:blue;}
-#footer 	{width: auto; height: auto; margin: 0; padding: 20px; border: 0; background: #508ca0;}                            
+#footer 	{width: auto; height: auto; margin: 0; padding: 20px; border: 0; background: #508ca0;}    
+#footer p 	{font-family: Arial;font-size: 14px}  
+
 
 html, body {
 	height:auto;
